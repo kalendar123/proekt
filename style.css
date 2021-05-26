@@ -30,14 +30,7 @@
             "img subtitle";
         grid-template-columns: min-content max-content;
     }
-    
-    .intro__img {
-        grid-area: img;
       
-        min-width: 260px;
-        position: relative;
-        z-index: 2;
-    }    
     
     .section__subtitle--intro {
         align-self: start;
@@ -80,16 +73,16 @@ strong { font-weight: var(--fw-bold) }
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
     
-    --fw-reg: 150;
-    --fw-bold: 700;
+    --fw-reg: 140;
+    --fw-bold: 740;
     
     --clr-light: rgb(255, 255, 255);
     --clr-dark: #000000;
     --clr-accent: #b46565;
     
     --fs-h1: 3rem;
-    --fs-h2: 5.1rem;
-    --fs-h3: 1.5rem;
+    --fs-h2: 5.2rem;
+    --fs-h3: 1.1rem;
     --fs-body: 1.1rem;
     
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
@@ -119,7 +112,7 @@ h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
 .section__title {
-    margin-bottom: .2em;
+    margin-bottom: .3em;
 }
 
 .section__title--intro {
@@ -141,7 +134,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 
-/*text kolumn bakgrund*/
+/*text kolumn */
 
 .my-services {
    
@@ -163,12 +156,12 @@ h3 { font-size: var(--fs-h3) }
     .section__title--services::after {
         content: '';
         display: block;
-        width: 7em;
+        width: 2em;
 
         height: 1px;
-        margin: 0.55em auto 1.5em;
+        margin: 0.5em auto 1em;
         background: var(--clr-light);
-        opacity: 1.6;
+        opacity: 1.3;
     }
     
       /*text kolumn2*/
